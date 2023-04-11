@@ -1,0 +1,96 @@
+Transaction {
+    hash: 0x9328d9ff7ae171a30d6223fcba76b9a209382566a199ac0f746cb0c4612805a2,
+    nonce: 0,
+    block_hash: Some(
+        0x9e6581bdd5703dd6c400a0ff88e4477ab767dfcaa3d0ddfff8e0a7e1376cb1eb,
+    ),
+    block_number: Some(
+        16923425,
+    ),
+    transaction_index: Some(
+        48,
+    ),
+    from: 0x93075d632126ab17ef90195c5b0acccbc5ad787f,
+    to: Some(
+        0x6fa6da462cba635b0193809332387cdc25df3e8d,
+    ),
+    value: 354455350726153000,
+    gas_price: Some(
+        18261649097,
+    ),
+    gas: 21000,
+    input: Bytes(0x),
+    v: 1,
+    r: 106436360711350997466600906165921268903458598165913086478167014728479566405640,
+    s: 46078980328380819862471363545101121353161293676552471132654818678612195799159,
+    transaction_type: Some(
+        2,
+    ),
+    access_list: Some(
+        AccessList(
+            [],
+        ),
+    ),
+    max_priority_fee_per_gas: Some(
+        100000000,
+    ),
+    max_fee_per_gas: Some(
+        25935679707,
+    ),
+    chain_id: Some(
+        1,
+    ),
+    other: OtherFields {
+        inner: {},
+    },
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Transaction {
+    hash: 0xaf2392e45d6f738b8601b5a562d68c85b26ceed23a01f95227fc7121251b6e8c,
+    nonce: 172343,
+    block_hash: Some(
+        0x7b22c7e51d9843fd5d34443213cbb9336abc2de6f911b883d84e8137dff09511,
+    ),
+    block_number: Some(
+        1000021,
+    ),
+    transaction_index: Some(
+        1,
+    ),
+    from: 0x2a65aca4d5fc5b5c859090a6c34d164135398226,
+    to: Some(
+        0x8d5ad572f59fbc5bb185e4c156266d3083ea9290,
+    ),
+    value: 1023716850000000000,
+    gas_price: Some(
+        50000000000,
+    ),
+    gas: 90000,
+    input: Bytes(0x),
+    v: 28,
+    r: 82395866370750246344798709309574905415104248022352941923913788257167848297214,
+    s: 22881177055415556923688138811277676571180710047909767193662535288452465045235,
+    transaction_type: Some(
+        0,
+    ),
+    access_list: None,
+    max_priority_fee_per_gas: None,
+    max_fee_per_gas: None,
+    chain_id: None,
+    other: OtherFields {
+        inner: {},
+    },
+}

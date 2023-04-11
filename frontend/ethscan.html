@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Explorer</title>
+    <link rel="stylesheet" href="ethscan.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Ethereum blockchain explorer v1.0</h2>
+    </div>
+    <div class="container">
+        <div class="box" id="chart">
+            <h2>Transaction Chart (per block)</h2>
+            <canvas id="transaction-chart"></canvas>
+        </div>
+        <div class="box" id="chart">
+            <h2>Transaction value (per min)</h2>
+            <canvas id="txs-value-min-chart"></canvas>
+        </div>
+        <div class="box" id="chart">
+            <h2>Transaction value (per block)</h2>
+            <canvas id="txs-value-chart"></canvas>
+        </div>
+        <div class="box" id="chart">
+            <h2>Gas Avg Chart (per block)</h2>
+            <canvas id="gas-avg-chart"></canvas>
+        </div>
+        <div class="box" id="chart">
+            <h2>Gas Chart (per block)</h2>
+            <canvas id="gas-chart"></canvas>
+        </div>
+
+        <div class="box" id="transactions">
+            <h2>Latest Transactions</h2>
+            <pre id="transactionData"></pre>
+        </div>
+        <div class="box" id="blocks">
+            <h2>Latest Blocks</h2>
+            <pre id="blockData"></pre>
+        </div>
+    </div>
+    <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner"></div>
+    </div>
+    <script src="ethscan.js"></script>
+</body>
+</html>
